@@ -1,0 +1,98 @@
+.main{
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Julius Sans",sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(241, 233, 205, 0.683);
+    margin: 0;
+    color: rgb(12, 12, 12);
+   
+}
+.pic img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+h1{
+    font-family: "Edu AU VIC WA NT Arrows",sans-serif;
+    color: rgb(8, 8, 8) !important;
+}
+.flx{
+    display: flex;
+    justify-content: center;
+}
+.dp > img{
+    border-radius: 50%;
+}
+.second > div > h2{
+    color: aqua;
+}
+.skl{
+    color: aqua;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+.skill {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 90%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .skill {
+        grid-template-columns: 0.5fr 1fr;
+        width: 60%;
+    }
+}
+
+
+.get_touch {
+    margin: 50px auto 0 auto;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .get_touch {
+        width: 40%;
+    }
+}
+
+.gt{
+    color: aqua;
+}
+.bttn{
+    background: linear-gradient(to bottom, aqua, aqua);
+    border: none;
+    color:white !important;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.25rem ;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 50px auto 100px auto;
+}
+.bttn:hover{
+    background: linear-gradient(to bottom,  #0a0d12,  #0a0d12);
+}
+.f_link{
+    background-color: aqua;
+    margin: 20px auto 0px auto;
+    padding:20px;
+    text-align: center;
+}
+.nav-link i:hover {
+    color: #0a0d12;
+  }
+h3{
+    color: rgb(19, 134, 134) !important;
+}
