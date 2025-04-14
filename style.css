@@ -4,6 +4,9 @@
     text-align: center;
     font-family: "Julius Sans",sans-serif;
 }
+h3{
+    color: rgb(19, 134, 134) !important;
+}
 .first{
     display: flex;
     justify-content: center;
@@ -93,6 +96,3 @@ h1{
 .nav-link i:hover {
     color: #0a0d12;
   }
-h3{
-    color: rgb(19, 134, 134) !important;
-}
